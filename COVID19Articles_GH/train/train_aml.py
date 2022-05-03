@@ -7,7 +7,7 @@ import joblib
 from sklearn.metrics import mean_squared_error
 from sklearn.model_selection import train_test_split
 from sklearn.tree import DecisionTreeClassifier
-pip install --upgrade jinja2
+
 
 
 
@@ -172,7 +172,7 @@ def main():
     df = dataset.to_pandas_dataframe()
     data = split_data(df)
 
-    class_args = {"max_depth": 4}
+    class_args = {"max_depth": 3}
     # Train the model
     model = train_model(data, class_args)
 
