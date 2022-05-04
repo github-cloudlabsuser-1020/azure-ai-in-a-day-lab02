@@ -13,5 +13,6 @@ dependencies:
     - inference-schema==1.1.0
     - inference-schema[numpy-support]==1.1.0
     - dotnetcore2==2.1.*
+    - jinja2==3.0.3
 channels:
   - conda-forge
